@@ -1,0 +1,14 @@
+@import '../../sass/main';
+
+.list-view {
+	height: 100%;
+	display: grid;
+	padding: 0 2rem;
+	grid-template-columns: 150px 150px;
+	gap: 1rem;
+	overflow: auto;
+
+	@media only screen and(min-width: 600px) {
+		grid-template-columns: 150px 150px 150px 150px;
+	}
+}

@@ -1,0 +1,45 @@
+@import '../../../sass/main';
+
+.character-detail {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: $light;
+	padding: 1rem;
+	border-radius: 1rem;
+
+	> img {
+		border-radius: 100%;
+		margin-bottom: 1rem;
+	}
+
+	> ul {
+		list-style: none;
+		margin-bottom: 2rem;
+
+		> li {
+			font-size: 1rem;
+			text-align: center;
+
+			> b {
+				color: $primary-color;
+			}
+		}
+	}
+
+	> button {
+		border: 0;
+		padding: 1rem 2rem;
+		font-size: 1rem;
+		background-color: $primary-color;
+		color: white;
+		border-radius: 1rem;
+		transition: all 0.2s;
+
+		&:hover {
+			box-shadow: $shadow-small;
+		}
+	}
+}
