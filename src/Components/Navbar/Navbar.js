@@ -8,14 +8,14 @@ export default function Navbar() {
 		<>
 			<nav className='navbar'>
 				<Link to='/' className='item item-1'>
-					<span>Characters</span>
+					<span>RICK AND MORTY CHARACTERS</span>
 				</Link>
-				<Link to='/locations' className='item item-2'>
+				{/* <Link to='/locations' className='item item-2'>
 					<span>Locations</span>
 				</Link>
 				<Link to='/episodes' className='item item-3'>
 					<span>Episodes</span>
-				</Link>
+				</Link> */}
 			</nav>
 		</>
 	);
